@@ -1,3 +1,3 @@
-### Lautrec WordPress Theme
+# Lautrec WordPress Theme
 
 ## Includes the bare minimum files required.
