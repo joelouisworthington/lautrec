@@ -10,6 +10,12 @@ if( function_exists('acf_add_options_page') ) {
       'redirect'		=> false,
     'show_in_graphql' => true,
   ));
+
+  acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme Footer Settings',
+		'menu_title'	=> 'Footer',
+		'parent_slug'	=> 'theme-general-settings',
+	));
 }
 // Register the three standard menus in Gatsby Starter
 function register_my_menus() {
